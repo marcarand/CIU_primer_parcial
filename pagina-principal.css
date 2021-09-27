@@ -34,7 +34,7 @@ h1 {
 
 #usuario {
     position: absolute;
-    top: 1.5rem;
+    top: 2rem;
     right: 3rem;
 }
 
@@ -42,13 +42,14 @@ h1 {
     display: inline;
     font-size: 1.15rem;
     color: #211522;
+    font-size: 1.15rem;
     font-weight: bold;
-    font-family: sans-serif;
+    font-family: serif;
 }
 
 #foto_perfil {
-    width: 6.5rem;
-    height: 6.5rem;
+    width: 5.5rem;
+    height: 5.5rem;
     border-radius: 100%;
 }
 
@@ -99,14 +100,17 @@ h1 {
 .datos_tarjeta {
     margin-top: 1.5rem;
     font-size: 1.15rem;
+    color: #211522;
 }
 
 .validez {
-    margin-top: 2.5rem;    
+    margin-top: 2.5rem;
+    color: #211522;
 }
 
 .aclaracion_validez {
     font-weight: bold;
+    color: #211522;
 }
 
 footer {
@@ -114,8 +118,8 @@ footer {
     margin-right: 25rem;
     margin-left: 25rem;
     font-size: 0.85rem;
+    color: #211522;
 }
-
 
 #triangulo {
     position: fixed;
@@ -138,8 +142,9 @@ footer {
     font-family: serif;
     color: #613659;
     text-decoration: none;
+    opacity: 0.75;
 }
 
 #boton_salir:hover {
-    text-decoration: underline;
+    opacity: 1;
 }
