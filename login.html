@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Servicio Digital de Descuento de Medicamentos - Salud BA</title>
+    <link href="login.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <header>
+      <img src="imagenes/logo_BAsalud.png" id="logo">
+    </header>
+    <form id="formulario_ingreso" action="pagina-principal.html" method="get">
+      <h1>Servicio Digital de Descuento de Medicamentos</h1>
+      <input type="text" name="usuario" id="usuario" placeholder="Ingresá tu usuario" required />
+      <input type="password" name="clave" id="clave" placeholder="Ingresá tu contraseña" required />
+      <button type="submit" id="ingresar" onclick="validar(event);" value="INGRESAR">INGRESAR</button>
+      <a href="recuperar-datos.html" id="datos_olvidados">¿Olvidaste tus datos?</a>
+      <p id="nueva_cuenta">¿Todavía no tenés una cuenta? <a href="crear-cuenta.html">Crear una nueva cuenta<a/></p>
+    </form>
+    <script src="login.js"></script>
+  </body>
+</html>

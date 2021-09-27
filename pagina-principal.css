@@ -1,0 +1,145 @@
+* { margin: 0px; }
+
+body {
+    font-size: 12px;
+    background-color: #d3b1c2;
+}
+
+#encabezado {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #613659;
+    height: 9.5rem;
+    vertical-align: middle;
+}
+
+#logo {
+    position: absolute;
+    top: 2rem;
+    left: 3rem;
+    width: 5.5rem;
+    height: 5.5rem;
+    border-radius: 100%;
+}
+
+h1 {
+    font-size: 2.25rem;
+    font-weight: bold;
+    text-align: center;
+    color: #c197d2;
+    text-shadow: 0.25rem 0.25rem 0.25rem #211522;
+    
+}
+
+#usuario {
+    position: absolute;
+    top: 1.5rem;
+    right: 3rem;
+}
+
+#nombre_usuario {
+    display: inline;
+    font-size: 1.15rem;
+    color: #211522;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+#foto_perfil {
+    width: 6.5rem;
+    height: 6.5rem;
+    border-radius: 100%;
+}
+
+#contenedor_tarjetas {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.tarjeta {
+    position: relative;
+    background: #c197d2;
+    width: 18rem;
+    height: 25rem;
+    border-bottom-right-radius: 2.5rem;
+    border-bottom-left-radius: 2.5rem;
+    text-align: center;
+}
+
+.imagen_tarjeta {
+    width: 18rem;
+    height: 12.5rem;
+}
+
+.contenedor_descuento {
+    position: absolute;
+    top: 2.25rem;
+    right: 1.25rem;
+    width: 5rem;
+    opacity: 0.75;
+}
+
+.descuento_tarjeta {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    background: #613659;
+    width: 5rem;    
+    height: 5rem;
+    border-radius: 100%;
+    color: #f1e5d2;
+    font-size: 2.05rem;
+    font-weight: bold;
+    font-style: serif;
+}
+
+.datos_tarjeta {
+    margin-top: 1.5rem;
+    font-size: 1.15rem;
+}
+
+.validez {
+    margin-top: 2.5rem;    
+}
+
+.aclaracion_validez {
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 5rem;
+    margin-right: 25rem;
+    margin-left: 25rem;
+    font-size: 0.85rem;
+}
+
+
+#triangulo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 6rem solid transparent;
+    border-top: 6rem solid transparent;
+    border-right: 6rem solid #c197d2;
+    border-bottom: 6rem solid #c197d2;
+}
+
+#boton_salir {
+    position: fixed;
+    right: 2.25rem;
+    bottom: 2.5rem;
+    font-size: 1.15rem;
+    font-weight: bold;
+    font-family: serif;
+    color: #613659;
+    text-decoration: none;
+}
+
+#boton_salir:hover {
+    text-decoration: underline;
+}

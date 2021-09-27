@@ -1,0 +1,81 @@
+* { margin: 0px; }
+
+body {
+    background-image: url("imagenes/trasfondo_login.png");
+    background-size: cover;
+    font-size: 12px;
+}
+
+#logo {
+    margin: 2rem;
+    width: 5.5rem;
+    height: 5.5rem;
+    border-radius: 100%;
+}
+
+#formulario_ingreso {
+    position: absolute;
+    top: 10rem;
+    right: 10rem;
+    background: #d3b1c2;
+    box-shadow: 0.3rem 0.3rem 0.3rem 0.2rem #613659;
+    opacity: 0.7;
+    width: 25rem;
+    height: 30rem;
+    border-radius: 1.5rem;
+    padding-top: 2rem;
+    text-align: center;
+}
+
+#formulario_ingreso:hover {
+    opacity: 0.8;
+}
+
+h1 {
+    font-size: 0.85rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem; 
+    margin-bottom: 3em;
+    text-align: center;
+    color: #211522;
+}
+
+input {
+    display: block;
+    width: 15rem;
+    border-radius: 0.85rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2rem;
+    padding: 0.45rem;
+    font-size: 0.85rem;
+}
+
+button {
+    display: block;
+    background: #c197d2;
+    border-radius: 0.85rem;
+    padding-top: 0.95rem;
+    padding-right: 1.8rem;
+    padding-bottom: 0.75rem;
+    padding-left: 1.8rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 3rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+a {
+    color: #613659;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#nueva_cuenta {
+    margin-top: 4rem;
+}
